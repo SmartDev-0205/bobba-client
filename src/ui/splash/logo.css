@@ -1,0 +1,38 @@
+.logo {
+    margin: auto;
+}
+
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo h1 {
+    display: inline;
+    margin-left: 0.1em;
+    font-family: 'Poiret One', sans-serif;
+    font-weight: inherit;
+    font-size: 3em;
+    text-transform: lowercase;
+    text-shadow: 0 0 2px #000000;
+}
+.justify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.margin-justify{
+    margin: 0 8px;
+}
+.connect-wallet{
+    cursor: pointer;
+    margin-top: 14px;
+    box-shadow: 0px 0px 3px 4px green ;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+
+.connect-wallet:hover{
+    color: rgb(141, 214, 141);
+
+}
